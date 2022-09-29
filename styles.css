@@ -136,3 +136,12 @@ a.act,a:hover{
    #window .sliders:nth-child(3){
     animation: ani 1s ease-out 5s both;
    }
+   @keyframes ani2{
+    to{
+        transform: translateY(-100%);
+    }
+}
+    .container{
+        animation: ani2 1s ease-out 7s;
+
+ }
