@@ -18,6 +18,11 @@ nav{
     height: 80px;
     width: 100%;
 }
+nav ul li a{
+    text-decoration: none;
+}
+
+
 nav ul{
     float: right;
     margin-right: 20px;
@@ -142,6 +147,11 @@ a.act,a:hover{
     }
 }
     .container{
-        animation: ani2 1s ease-out 7s;
+        animation: ani2 1s ease-out 7s both;
 
  }
+@keyframes ani3{
+    to{
+        transform:rotateY()
+    }
+} 
