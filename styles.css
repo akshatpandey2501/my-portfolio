@@ -27,6 +27,7 @@ nav{
 }
 nav ul li a{
     text-decoration: none;
+    
 }
 
 
@@ -104,7 +105,10 @@ a.act,a:hover{
        }
        #check:checked ~ ul{
         left: 0;
+        z-index: 0;
        } 
+      
+
        
       }
     
@@ -216,6 +220,7 @@ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     position: absolute;
     left: 350px;
     top: 100px;
+    z-index: -4;
 }
 #nameimage{
     position:absolute;
@@ -292,18 +297,16 @@ display: block;
        position: absolute;
        left: 150px;
        top: 130px;
-       z-index: -1;
+       z-index: -4;
     }
      #nameimage{
         position: absolute;
         left: 100px;
         height:30vh;
         width: 70vw;
-        z-index: -2;
+        z-index: -4;
     }
-    #hand{
-        z-index: -1;
-    }
+   
    
         
     
@@ -343,21 +346,25 @@ display: block;
 .content .title{
     text-transform: uppercase;
     font-size: 28px;
+    color: white;
 }
-.content .writing h3{
+ .content,#headings{
     margin-top: 20px;
+    color: white;
 
 }
-.content .writing p{
+ #parategraph{
     margin-top: 10px;
     font-family: monospace;
-    font-size: 17px;
+    font-size: 1rem;
     line-height: 1.5;
+    color: white;
 
 }
 @media (max-width:832px){
     
-   .aboutus{
+   #about{
+    position: relative;
     z-index: 50;
    }
     .container2{
@@ -389,8 +396,44 @@ display: block;
         display: block;
     }
     .section .title{
+        margin-top: 15px;
         text-align: center;
         font-size: 19px;
         z-index: 98;
     }
+    
+    
+}
+#skillheading{
+    color: white;
+}
+.contactus{
+  
+    width: 100vw;
+    height: 100vh;
+    background-color: #0082e6;
+}
+.container5{
+    
+    display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+justify-content: space-between;
+align-items: center; 
+}
+.contactus .container5 img{
+    width: 20vw;
+    height: 20vh;
+}
+#contacts{
+    margin-top: 44px;
+    color: white;
+    font-size: 38px;
+}
+@media (max-width:832px) {
+    .contactus{
+        position: relative;
+        z-index: 7;
+    }
+    
 }
