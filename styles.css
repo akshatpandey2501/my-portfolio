@@ -288,8 +288,8 @@ display: block;
 }
 @media(max-width:832px){
     .skills .container1 img{
-        height: 20vh;
-        width: 20vw;
+        height: 13vh;
+        width: 13vw;
     }
 }
 @media(max-width:832px){
@@ -325,7 +325,7 @@ display: block;
     display: block;
     margin: auto;
     padding-top: 100px;
-    z-index: 99;
+    
     
 }
 .content{
@@ -372,7 +372,7 @@ display: block;
         display: block;
         margin: auto;
         padding-top: 50px;
-        z-index: 95;
+       
     
     }
     .content{
@@ -380,7 +380,7 @@ display: block;
         width: 55%;
         display: block;
         margin: auto;
-        z-index: 96;
+        
     }
     .image-section{
         float: left;
@@ -399,7 +399,10 @@ display: block;
         margin-top: 15px;
         text-align: center;
         font-size: 19px;
-        z-index: 98;
+        
+    }
+    #skillheading{
+        font-size: 20px;
     }
     
     
@@ -437,3 +440,4 @@ align-items: center;
     }
     
 }
+
